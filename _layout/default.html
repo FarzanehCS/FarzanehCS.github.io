@@ -60,11 +60,9 @@
         </div>
     </nav>
 <div class="container-fluid bg-1 text-center" id="first_div">
-     {% block first_div%}
-    <h3>Who Am I?</h3>
-    <img src={% static "templates/img/ml.png" %} class="img-circle" alt="Bird" width="350" height="350">
-    <h3>I'm a Computer Scientist.</h3>
-  {%endblock%}
+     {{content}}
+   
+ 
 </div>
 
 <div class="container-fluid bg-2 text-center" id="second_div">
