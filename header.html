@@ -1,48 +1,4 @@
 
-<!-- 
-
-
-<!DOCTYPE html>
-<html>
-
-<head style="color: azure;">
-    <title>Farzaneh </title>
-
-    {% load staticfiles   %}
-
-<link rel="stylesheet" href={% static "personal/css/bootstrap.min.css"%} type="text/css"/>
-<link rel="stylesheet" href={% static "personal/css"%} type="text/css" />
-
-<img src={% static "personal/img/ml.png" %} class="img-fluid" alt="Responsive image" >
-
-</head>
-
-<div class="container">
-    <!-- Content here -->
-<!-- </div>
-
-<body>
-
-
-
-
-    <h1>This is a Heading</h1>
-    <p>This is a paragraph.</p>
-    <div>
-        {% block content%} 
-        {% endblock %}
-    </div>
-
-
-
-</body>
-
-</html> -->
- <!-- -->
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -106,7 +62,7 @@
 <div class="container-fluid bg-1 text-center" id="first_div">
     {%block first_div%}
     <h3>Who Am I?</h3>
-    <img src={% static "personal/img/ml.png" %} class="img-circle" alt="Bird" width="350" height="350">
+    <img src={% static "templates/img/ml.png" %} class="img-circle" alt="Bird" width="350" height="350">
     <h3>I'm a Computer Scientist.</h3>
     {% endblock%}
 </div>
@@ -114,8 +70,7 @@
 <div class="container-fluid bg-2 text-center" id="second_div">
     {% block second_div%}
     <h3>What Am I?</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>
     </p>
     <a href="#" class="btn btn-default btn-lg">Search</a>
     {%endblock%}
